@@ -4,8 +4,6 @@ var completeDiv = document.getElementById('complete'),
 
      lists = document.getElementsByTagName('ul'),
 
-     checkLists = document.getElementsByClassName('checkit'),
-
      button = document.getElementById('button');
 
 var shoppingApp = {
