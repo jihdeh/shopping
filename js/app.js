@@ -33,7 +33,7 @@ var shoppingApp = {
     //add classes and text to created items
     deleteButton.innerText = "Delete";
     deleteButton.className = "delete";
-    checkBox.className = "checkit"
+    checkBox.className = "checkit";
     
     label.innerText = taskString;
 
@@ -81,6 +81,6 @@ var shoppingApp = {
     $(lists).on("change", 'input[type=checkbox]', shoppingApp.switching);
     $(lists).on("click", '.delete', shoppingApp.deleteItem);
   }  
-}
+};
 
 $(document).ready(shoppingApp.initialize);
